@@ -1,0 +1,14 @@
+{
+  "portable-scenes.zip": {
+    "bytes": 219677815,
+    "sha256": "ead117f0fd56e9c1e10dc7489888ea8561775c79205607775b280386a91c06e3"
+  },
+  "inspire3-woodland-20s.mp4": {
+    "bytes": 64170837,
+    "sha256": "d234fb90ff0d99ff04a5d55e1f9df8c3b5f31ff79065b8d0d3c587a01ae5ff7e"
+  },
+  "preview-720p.mp4": {
+    "bytes": 4335267,
+    "sha256": "ecff1ff9d4a91ef99ddc5bde561d255e1aea8db7a5cea3b939bf60101709d5b2"
+  }
+}

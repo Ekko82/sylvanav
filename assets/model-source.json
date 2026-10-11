@@ -1,0 +1,10 @@
+{
+  "name": "DJI Inspire 3",
+  "author": "polyman Studio",
+  "source": "https://sketchfab.com/3d-models/dji-inspire-3-158e4fa0710f4511be14b73374b5df9b",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "official_dji_asset": false,
+  "model_sha256": "634dce550fb6d46192161173aafe4ffd4364c351386cdb8602ccce9062e44ded",
+  "changes": "Materials, rotor pivots, animation and rendering"
+}

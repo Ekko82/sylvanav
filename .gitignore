@@ -1,0 +1,11 @@
+build/
+release-assets/
+assets/source/
+assets/realism/
+__pycache__/
+*.pyc
+*.blend
+*.blend1
+*.mp4
+*.zip
+*.log

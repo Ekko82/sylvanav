@@ -1,0 +1,20 @@
+{
+  "geometry_changed_since_pointcloud": false,
+  "ground": [
+    "forest_floor",
+    "leafy_grass"
+  ],
+  "ground_tile_m": [
+    2.14,
+    2
+  ],
+  "ground_blend": "Noise patch mask in physical UV metres; fine normal maps affect shading only",
+  "bark": "bark_brown_01",
+  "world": "rainforest_trail",
+  "world_rotation_degrees": 75,
+  "world_strength": 0.55,
+  "exposure": 0.35,
+  "understory_geometry_added": true,
+  "pointcloud_rescanned_after_geometry_change": true,
+  "point_count": 47386
+}

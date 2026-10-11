@@ -1,0 +1,94 @@
+{
+  "coordinate_frame": "Drone body local; metres; -Y forward, +Z up",
+  "local_position": [
+    -0.016099855303764343,
+    -0.30831077694892883,
+    0.1685282289981842
+  ],
+  "local_quaternion_wxyz": [
+    -3.2483892908885537e-08,
+    2.9248628408140576e-08,
+    -0.6691306233406067,
+    -0.7431448698043823
+  ],
+  "local_forward": [
+    1.0932844832624387e-16,
+    -0.9945219159126282,
+    -0.10452845692634583
+  ],
+  "tan_half_fov": [
+    1.0588235591109656,
+    0.5955882519999182
+  ],
+  "camera_lens_mm": 17.0,
+  "camera_sensor_width_mm": 36.0,
+  "image_size": [
+    1920,
+    1080
+  ],
+  "physical_lens_object": "98",
+  "normal_sign_reference": "from rear barrel mesh 102 toward physical lens mesh 98",
+  "physical_lens_center_local": [
+    -0.016099855303764343,
+    -0.2926400601863861,
+    0.17017528414726257
+  ],
+  "physical_lens_forward_local": [
+    1.0932844832624387e-16,
+    -0.9945219159126282,
+    -0.10452845692634583
+  ],
+  "physical_lens_to_sensor_forward_dot": 0.9999999459832907,
+  "physical_lens_to_target_forward_dot": 1.0000000121071935,
+  "source_physical_lens_center_local": [
+    -0.016099855303764343,
+    -0.28832483291625977,
+    0.202232226729393
+  ],
+  "source_optical_forward_local": [
+    -2.7973815639722454e-17,
+    -0.9329536557197571,
+    0.3599965572357178
+  ],
+  "lens_center_displacement_m": 0.03234607716240281,
+  "lens_center_pivot_rotation_error_m": 1.4901161193847656e-08,
+  "target_pitch_down_deg": 6.0,
+  "applied_pitch_change_deg": 27.099974230224927,
+  "pitch_pivot_local": [
+    -0.06584739685058594,
+    -0.22397473454475403,
+    0.17725107073783875
+  ],
+  "front_surface_offset_m": 0.015757023362580776,
+  "front_surface_clearance_m": 0.006,
+  "camera_meshes_rotated": [
+    "100",
+    "101",
+    "102",
+    "103",
+    "68_01",
+    "69",
+    "70",
+    "71",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "93",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99"
+  ],
+  "camera_marking_group_rotated": "DL_mount",
+  "stationary_gimbal_supports": [
+    "72",
+    "89",
+    "90",
+    "91",
+    "92",
+    "94"
+  ]
+}

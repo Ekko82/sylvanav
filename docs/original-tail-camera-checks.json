@@ -1,0 +1,21 @@
+{
+  "description": "Checks on the original revision 3 production scenes, before portable packaging.",
+  "checks_passed": {
+    "sensor_and_drone_600_frames_identical": true,
+    "all_cloud_and_sensor_data_identical": true,
+    "all_follow_views_on_tail_side": true,
+    "all_revised_external_frames_blades_inside_image": true,
+    "sparse_external_visibility_clear": true,
+    "formal_scene_files_unchanged_during_audit": true
+  },
+  "sensor_and_drone_comparison": {
+    "max_absolute_matrix_element_errors": {
+      "Drone": 0.0,
+      "SensorCamera": 0.0,
+      "sensor_intrinsics": 0.0
+    },
+    "exactly_identical": true,
+    "different_frames": []
+  },
+  "note": "Original production scene hashes differ from portable scene hashes because packed file paths were sanitized. This report is provenance, not a test of future local rebuilds."
+}

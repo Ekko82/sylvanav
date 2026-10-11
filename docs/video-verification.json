@@ -1,0 +1,41 @@
+{
+  "path": "inspire3-woodland-20s.mp4",
+  "bytes": 64170837,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_s": 20,
+  "decoded_frames": 600,
+  "full_decode_passed": true,
+  "audio": "quiet synthesized rotor track, AAC stereo",
+  "overlay_windows_s": {
+    "point_cloud": [
+      6,
+      14
+    ],
+    "cloud_main_with_beauty_inset": [
+      14,
+      16
+    ]
+  },
+  "annotations_in_video": false,
+  "revision": 3,
+  "camera_style": "aircraft-tail follow with rear-side ending orbit",
+  "sha256": "d234fb90ff0d99ff04a5d55e1f9df8c3b5f31ff79065b8d0d3c587a01ae5ff7e",
+  "fpv_window_s": [
+    8,
+    10
+  ],
+  "external_tail_follow_windows_s": [
+    [
+      6,
+      8
+    ],
+    [
+      10,
+      16
+    ]
+  ],
+  "point_count": 47386,
+  "physical_sensor_and_aircraft_poses_match_revision2": true
+}

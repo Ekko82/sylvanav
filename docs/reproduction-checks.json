@@ -1,0 +1,32 @@
+{
+  "blender_version": "4.5.14 LTS",
+  "complete_scene_build_from_original_glb_and_selected_textures_passed": true,
+  "rebuilt_600_pose_frames_match_original": true,
+  "rebuilt_26_pointcloud_batches_match_original": true,
+  "point_count": 47386,
+  "python_ast_parse_passed": true,
+  "cpu_preview_render_passed": {
+    "frame": 220,
+    "samples": 1,
+    "resolution_scale_percent": 10
+  },
+  "original_mp4_full_decode_passed": {
+    "frames": 600,
+    "duration_s": 20,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30
+  },
+  "portable_scene_binary_sensitive_path_scan_passed": true,
+  "portable_scene_archive_crc_passed": true,
+  "readme_rendering": {
+    "github_gfm_video_player_tags": 1,
+    "animated_preview_present": true
+  },
+  "limits": [
+    "Full native rendering of the rebuilt scenes was not repeated; the original production MP4 is released unchanged.",
+    "No collision, SLAM, learned recognition or real-sensor performance claim."
+  ]
+}

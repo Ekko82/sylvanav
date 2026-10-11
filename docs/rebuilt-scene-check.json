@@ -1,0 +1,9 @@
+{
+  "checked_frames": 600,
+  "minimum_sensor_body_forward_dot": 0.9945217949571088,
+  "maximum_tail_observer_body_forward_dot": -0.9067442500963807,
+  "packed_image_count": 12,
+  "point_count": 47386,
+  "checks_passed": true,
+  "scope": "Pose, framing-side, data count and portable image checks; no collision or SLAM validation."
+}

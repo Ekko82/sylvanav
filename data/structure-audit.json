@@ -1,0 +1,149 @@
+{
+  "coordinate_system": "glTF world right-handed Y up; Blender importer maps (x,y,z) to (x,-z,y)",
+  "rotors": [
+    {
+      "label": "author_left_front",
+      "parent_index": 135,
+      "parent_name": "脚架_2",
+      "blade_node_indices": [
+        104,
+        106
+      ],
+      "blade_names": [
+        "63_3",
+        "64_3"
+      ],
+      "hub_reference_node_index": 49,
+      "hub_reference_name": "58_1_3",
+      "world_pivot": [
+        29.606839082398135,
+        11.009466565231588,
+        13.972753383013984
+      ],
+      "world_axis_up": [
+        -0.033127387146509306,
+        0.9323767079605324,
+        0.3599670133130612
+      ],
+      "blender_pivot": [
+        29.606839082398135,
+        -13.972753383013984,
+        11.009466565231588
+      ],
+      "blender_axis_up": [
+        -0.033127387146509306,
+        -0.3599670133130612,
+        0.9323767079605324
+      ],
+      "note": "Pivot uses central motor cap centroid, axis uses side-assembly local Z; approximate for display animation. Keep pairs from each motor together. Opposite handed rotor pairs need opposite visual spin."
+    },
+    {
+      "label": "author_left_rear",
+      "parent_index": 135,
+      "parent_name": "脚架_2",
+      "blade_node_indices": [
+        105,
+        107
+      ],
+      "blade_names": [
+        "63_4",
+        "64_4"
+      ],
+      "hub_reference_node_index": 50,
+      "hub_reference_name": "58_1_4",
+      "world_pivot": [
+        21.635588522962365,
+        26.674787835783118,
+        -27.341744002356073
+      ],
+      "world_axis_up": [
+        -0.033127387146509306,
+        0.9323767079605324,
+        0.3599670133130612
+      ],
+      "blender_pivot": [
+        21.635588522962365,
+        27.341744002356073,
+        26.674787835783118
+      ],
+      "blender_axis_up": [
+        -0.033127387146509306,
+        -0.3599670133130612,
+        0.9323767079605324
+      ],
+      "note": "Pivot uses central motor cap centroid, axis uses side-assembly local Z; approximate for display animation. Keep pairs from each motor together. Opposite handed rotor pairs need opposite visual spin."
+    },
+    {
+      "label": "author_right_front",
+      "parent_index": 275,
+      "parent_name": "脚架",
+      "blade_node_indices": [
+        244,
+        246
+      ],
+      "blade_names": [
+        "63",
+        "64"
+      ],
+      "hub_reference_node_index": 190,
+      "hub_reference_name": "58_1",
+      "world_pivot": [
+        -29.60615816663526,
+        11.008751226356893,
+        13.971205868810678
+      ],
+      "world_axis_up": [
+        0.03312857147386083,
+        0.932365973113963,
+        0.35999470819909873
+      ],
+      "blender_pivot": [
+        -29.60615816663526,
+        -13.971205868810678,
+        11.008751226356893
+      ],
+      "blender_axis_up": [
+        0.03312857147386083,
+        -0.35999470819909873,
+        0.932365973113963
+      ],
+      "note": "Pivot uses central motor cap centroid, axis uses side-assembly local Z; approximate for display animation. Keep pairs from each motor together. Opposite handed rotor pairs need opposite visual spin."
+    },
+    {
+      "label": "author_right_rear",
+      "parent_index": 275,
+      "parent_name": "脚架",
+      "blade_node_indices": [
+        245,
+        247
+      ],
+      "blade_names": [
+        "63_2",
+        "64_2"
+      ],
+      "hub_reference_node_index": 191,
+      "hub_reference_name": "58_1_2",
+      "world_pivot": [
+        -21.634014336821323,
+        26.673475264003564,
+        -27.34335017940221
+      ],
+      "world_axis_up": [
+        0.03312857147386083,
+        0.932365973113963,
+        0.35999470819909873
+      ],
+      "blender_pivot": [
+        -21.634014336821323,
+        27.34335017940221,
+        26.673475264003564
+      ],
+      "blender_axis_up": [
+        0.03312857147386083,
+        -0.35999470819909873,
+        0.932365973113963
+      ],
+      "note": "Pivot uses central motor cap centroid, axis uses side-assembly local Z; approximate for display animation. Keep pairs from each motor together. Opposite handed rotor pairs need opposite visual spin."
+    }
+  ]
+}
