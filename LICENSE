@@ -20,6 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Scope: original Python code, project documentation and project-authored numeric
-configuration/data. Third-party artwork and rendered media are covered by the
-licenses and attribution in THIRD_PARTY.md, not by this MIT grant.
