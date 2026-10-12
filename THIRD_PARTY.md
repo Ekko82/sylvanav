@@ -43,7 +43,7 @@ remains the work of **polyman Studio**; the Poly Haven files remain CC0.
 
 Suggested credit when redistributing the scene or rendered media:
 
-> Woodland Drone Showcase — scene, animation and rendering by Ekko82;
+> SylvaNav — scene, animation and rendering by Ekko82;
 > “DJI Inspire 3” model by polyman Studio (CC BY 4.0), modified for this scene;
 > textures and HDRI from Poly Haven (CC0).
 

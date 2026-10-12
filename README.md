@@ -1,9 +1,11 @@
-# Woodland Drone Showcase
+# SylvaNav
+
+**Woodland aerial simulation · 林间无人机仿真**
 
 一个 20 秒的林间无人机 CG 展示：精细机体、尾部跟拍、前向机载画面与同步几何点云。
 这是第三版成片的开源代码和复现资料，尚未加入障碍识别或自主避障。
 
-A Blender showcase with a detailed drone appearance, a procedural woodland,
+A Blender simulation visualization with a detailed drone appearance, a procedural woodland,
 aircraft-tail tracking, a forward mounted camera and synchronized geometric scans.
 
 ## Video
@@ -12,8 +14,8 @@ https://github.com/user-attachments/assets/99135268-3d27-48e1-aa20-cdbaef172e9d
 
 The inline player uses a compact 720p copy of the complete 20-second video.
 
-[Download the original 20-second, 1080p/30 fps MP4](https://github.com/Ekko82/woodland-drone-showcase/releases/download/v0.3.0/inspire3-woodland-20s.mp4)
-· [Release and portable scenes](https://github.com/Ekko82/woodland-drone-showcase/releases/tag/v0.3.0)
+[Download the original 20-second, 1080p/30 fps MP4](https://github.com/Ekko82/sylvanav/releases/download/v0.3.0/inspire3-woodland-20s.mp4)
+· [Release and portable scenes](https://github.com/Ekko82/sylvanav/releases/tag/v0.3.0)
 
 ![Animated preview of the woodland flight](media/preview.gif)
 
@@ -59,8 +61,8 @@ devices/versions can produce different pixels while preserving the scene/timelin
 1. Clone this repository and install the host Python dependencies:
 
    ```sh
-   git clone https://github.com/Ekko82/woodland-drone-showcase.git
-   cd woodland-drone-showcase
+   git clone https://github.com/Ekko82/sylvanav.git
+   cd sylvanav
    python -m pip install -r requirements.txt
    ```
 
@@ -136,5 +138,5 @@ Rendered media and composed scenes: CC BY 4.0 with the full credits in
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
 [source model](https://sketchfab.com/3d-models/dji-inspire-3-158e4fa0710f4511be14b73374b5df9b).
 Model materials, alignment, optical pitch, rotor rig and animation were changed
-for this showcase. It is a third-party model with no official DJI affiliation.
+for this simulation. It is a third-party model with no official DJI affiliation.
 Textures and HDRI: [Poly Haven](https://polyhaven.com/license), CC0.
