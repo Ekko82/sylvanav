@@ -2,13 +2,38 @@
 
 **Woodland aerial simulation · 林间无人机仿真**
 
-一个 20 秒的林间无人机 CG 展示：精细机体、尾部跟拍、前向机载画面与同步几何点云。
-这是第三版成片的开源代码和复现资料，尚未加入障碍识别或自主避障。
+林间无人机仿真：精细机体、前向视觉、几何点云与局部路径规划。
+最新视频为第七版（50 秒）；本仓库目前提供第三版（20 秒）的开源代码和复现资料。
+两者的功能与数据范围分别说明如下。
 
 A Blender simulation visualization with a detailed drone appearance, a procedural woodland,
 aircraft-tail tracking, a forward mounted camera and synchronized geometric scans.
 
-## Video
+<!-- sylvanav-latest-video:start -->
+## Latest video — v0.7.0
+
+https://github.com/user-attachments/assets/38da136b-9bca-4cdc-8bd8-63e3e940dd71
+
+[Watch or download the latest 50-second, 1080p/30 fps video](https://github.com/Ekko82/sylvanav/releases/download/v0.7.0/inspire3-woodland-50s.mp4)
+· [Release, media checksums and credits](https://github.com/Ekko82/sylvanav/releases/tag/v0.7.0)
+
+The latest film shows a faster, continuously advancing forest flight with a
+forward camera-aligned virtual LiDAR, an explicit view frustum, and a map that
+accumulates only surfaces already observed. Bright returns show the current
+scan; dimmer points show earlier observations. No future scan is preloaded.
+
+The flight uses a kinematic local planner driven by recorded current RGB and
+geometric first-return scans. The improved video obstacle overlays are a later
+RGB/geometry/depth analysis stage; they did not generate this route. This is a
+CG sensing and planning demonstration, not a hardware LiDAR, neural recognition,
+SLAM or validated DJI flight system. Thin, distant or occluded branches can
+remain undetected; the infinite environment background has no scan geometry.
+
+This release publishes the new media. The source and reproduction guide below
+still describe the **v0.3.0 baseline**, not the newer flight/perception pipeline.
+<!-- sylvanav-latest-video:end -->
+
+## Baseline video — v0.3.0
 
 https://github.com/user-attachments/assets/99135268-3d27-48e1-aa20-cdbaef172e9d
 
@@ -28,7 +53,7 @@ The inline player uses a compact 720p copy of the complete 20-second video.
 | 14–16 s | Cloud view with external camera inset |
 | 16–20 s | Rear-side camera orbit around a held recorded pose |
 
-## What is simulated
+## What is simulated (v0.3.0)
 
 The video replays an existing **PX4/Gazebo X500** pose recording with an Inspire 3
 appearance. The takeoff and cruise windows use nonuniform time compression. The
@@ -51,7 +76,7 @@ shading, and the infinite HDRI background does not contribute scan points.
 This version demonstrates rendering and sensor alignment. It does not validate
 DJI dynamics, real flight, physical sensor performance or autonomous navigation.
 
-## Quick reproduction from the release scenes
+## Quick reproduction from the release scenes (v0.3.0)
 
 Use **Blender 4.5 LTS**, Python 3.10+ and FFmpeg with libx264 and AAC. The original
 production video used Blender 4.5.14, Cycles, 48 samples and OptiX. The portable
@@ -86,7 +111,7 @@ To use a different output directory, set `SHOWCASE_OUTPUT` before running the sc
 Pass `--blender` to the build script or `--ffmpeg` to the compositor when the tools
 are not on `PATH`.
 
-## Build the scene from code
+## Build the scene from code (v0.3.0)
 
 1. Download the **original GLB** from the credited model page. Put exactly one GLB
    into `assets/source/`. The rig expects the checksum in `assets/model-source.json`;
@@ -117,7 +142,7 @@ This audit can require substantial RAM because it builds BVHs over the complete
 environment. Its JSON output separates original sampling replay from rendered
 geometry coverage and rounded-endpoint reprojection.
 
-## Repository contents
+## Repository contents (v0.3.0)
 
 | Path | Contents |
 |---|---|
